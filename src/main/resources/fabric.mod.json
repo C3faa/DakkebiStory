@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "storydokkebi",
+  "version": "1.0.0",
+  "name": "Story Dokkebi (Dependent)",
+  "description": "Сюжетный мод, использующий моба из NeoSeoul.",
+  "entrypoints": {
+    "main": [
+      "com.storydokkebi.StoryMain"
+    ],
+    "client": [
+      "com.storydokkebi.StoryClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "neoseoul": "*"
+  }
+}
